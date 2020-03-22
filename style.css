@@ -60,6 +60,17 @@ a:hover {
     margin-top: 10px;
 }
 
+.god-articles {
+    color: white;
+}
+
+.god-articles:hover {
+    color: black;
+}
+
+.siblings {
+    margin: 20px 0pc 20px 0px;
+}
 /* .vertical-center {
 
     position: absolute;
@@ -68,4 +79,7 @@ a:hover {
     transform: translateY(-50%);
   } */
 
+#family-tree {
+    margin-top: 18%;
+}
 
