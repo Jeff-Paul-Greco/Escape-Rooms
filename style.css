@@ -1,0 +1,13 @@
+body {
+    background-color: green;
+}
+
+.jumbotron {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.room-link {
+    padding-top: 10px;
+    font-size: 20px;
+}
