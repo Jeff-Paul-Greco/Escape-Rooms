@@ -55,11 +55,16 @@ a:hover {
     color: red;
 }
 
-.percy-into {
+.percy-intro, .last-percy {
     background-color: rgb(137, 137, 255, .5);
     color: white;
+}
+
+.percy-intro {
     margin-top: 10px;
 }
+
+
 
 .god-articles {
     color: white;
@@ -157,5 +162,12 @@ a:hover {
 #finder {
     height: 100%;
     width: 100%;
+}
 
+.percy-return {
+    margin-top: 10px;
+}
+
+#last-percy-text {
+    padding-top: 0px;
 }
