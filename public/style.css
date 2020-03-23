@@ -135,3 +135,27 @@ a:hover {
     height: 250px;
     background-color: grey;
 }
+
+.selection1, .selection2 {
+    position: absolute;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.selection1 {
+    right: 25.85%;
+    top: 49%;
+}
+
+.selection2 {
+    right: 84%;
+    top: 72%;
+}
+
+#finder {
+    height: 100%;
+    width: 100%;
+
+}

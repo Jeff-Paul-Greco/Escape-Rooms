@@ -41,13 +41,13 @@ $(".percyQ5").on("click", function (event) {
         alert("Write Some More!");
         return
     } else if (stoneAnswer.includes("compare" || "comparison" || "comparing" || "contrast" || "contrasting")) {
-        window.location = "percy-last.html"
+        window.location = "percy-question-find.html"
     } else if (stoneAnswer.includes("different" || "similar" || "moral" || "theme" || "same")) {
-        window.location = "percy-last.html"
+        window.location = "percy-question-find.html"
     } else if (stoneAnswer.includes("god" || "gods" || "Aphrodite" || "like" || "Venus")) {
-        window.location = "percy-last.html"
+        window.location = "percy-question-find.html"
     }else {
-        alert("Try discussing how The themes compare. How are they different, how are they similar?")
+        alert("Try discussing how the themes compare. How are they different, how are they similar?")
     }
 
 })
@@ -174,4 +174,33 @@ $(".correct").on("click", function (event) {
         window.location = "percy-question-cross.html"
     }
 })
+let selection1Flag = false;
+let selection2Flag = false;
 
+$(".selection1").on("click", function (event) {
+    event.preventDefault()
+
+    $(".selection1").css("border-width", "5px")
+    $(".selection1").css("border-style", "solid")
+    $(".selection1").css("border-color", "green")
+    $(".selection1").css("border-radius", "40px")
+    selection1Flag = true;
+
+    if (selection2Flag === true) {
+        window.location = "percy-last.html"
+    }
+})
+
+$(".selection2").on("click", function (event) {
+    event.preventDefault()
+
+    $(".selection2").css("border-width", "5px")
+    $(".selection2").css("border-style", "solid")
+    $(".selection2").css("border-color", "green")
+    $(".selection2").css("border-radius", "40px")
+    selection2Flag = true;
+
+    if (selection1Flag === true) {
+        window.location = "percy-last.html"
+    }
+})
