@@ -81,6 +81,72 @@ $(".correct8").on("click", function (event) {
     $(".correct8").css("color", "black");
 })
 
+$(".correct9").on("click", function (event) {
+    event.preventDefault()
+    $(".correct9").css("background-color", "yellow");
+    $(".correct9").css("color", "black");
+})
+
+$(".correct10").on("click", function (event) {
+    event.preventDefault()
+    $(".correct10").css("background-color", "yellow");
+    $(".correct10").css("color", "black");
+})
+
+$(".correct11").on("click", function (event) {
+    event.preventDefault()
+    $(".correct11").css("background-color", "yellow");
+    $(".correct11").css("color", "black");
+})
+
+$(".correct12").on("click", function (event) {
+    event.preventDefault()
+    $(".correct12").css("background-color", "yellow");
+    $(".correct12").css("color", "black");
+})
+
+$(".correct13").on("click", function (event) {
+    event.preventDefault()
+    $(".correct13").css("background-color", "yellow");
+    $(".correct13").css("color", "black");
+})
+
+$(".correct14").on("click", function (event) {
+    event.preventDefault()
+    $(".correct14").css("background-color", "yellow");
+    $(".correct14").css("color", "black");
+})
+
+$(".correct15").on("click", function (event) {
+    event.preventDefault()
+    $(".correct15").css("background-color", "yellow");
+    $(".correct15").css("color", "black");
+})
+
+$(".correct16").on("click", function (event) {
+    event.preventDefault()
+    $(".correct16").css("background-color", "yellow");
+    $(".correct16").css("color", "black");
+})
+
+$(".correct17").on("click", function (event) {
+    event.preventDefault()
+    $(".correct17").css("background-color", "yellow");
+    $(".correct17").css("color", "black");
+})
+
+$(".correct18").on("click", function (event) {
+    event.preventDefault()
+    $(".correct18").css("background-color", "yellow");
+    $(".correct18").css("color", "black");
+})
+
+$(".correct19").on("click", function (event) {
+    event.preventDefault()
+    $(".correct19").css("background-color", "yellow");
+    $(".correct19").css("color", "black");
+})
+
 $(".correct").on("click", function (event) {
     event.preventDefault()
     diaryCounter++
