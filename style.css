@@ -83,3 +83,18 @@ a:hover {
     margin-top: 18%;
 }
 
+#amulet {
+    max-width: 220px;
+}
+
+#percy-puzzle {
+    margin-top: 30px;
+}
+
+#puzz-link, #puzz-link:hover {
+    color: white;
+}
+
+.percyQ2, #puzzle-answer {
+    margin-top: 10px;
+}
