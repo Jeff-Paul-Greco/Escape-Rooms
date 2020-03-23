@@ -33,6 +33,25 @@ $(".percyQ4").on("click", function (event) {
     }
 })
 
+$(".percyQ5").on("click", function (event) {
+    event.preventDefault()
+    let stoneAnswer = $("#stone-answer").val();
+
+    if (stoneAnswer.length <= 500) {
+        alert("Write Some More!");
+        return
+    } else if (stoneAnswer.includes("compare" || "comparison" || "comparing" || "contrast" || "contrasting")) {
+        window.location = "percy-last.html"
+    } else if (stoneAnswer.includes("different" || "similar" || "moral" || "theme" || "same")) {
+        window.location = "percy-last.html"
+    } else if (stoneAnswer.includes("god" || "gods" || "Aphrodite" || "like" || "Venus")) {
+        window.location = "percy-last.html"
+    }else {
+        alert("Try discussing how The themes compare. How are they different, how are they similar?")
+    }
+
+})
+
 $(".correct1").on("click", function (event) {
     event.preventDefault()
     $(".correct1").css("background-color", "yellow");
