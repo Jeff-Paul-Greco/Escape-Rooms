@@ -87,7 +87,15 @@ a:hover {
     max-width: 220px;
 }
 
-#percy-puzzle {
+#puzzle-pieces {
+    max-width: 300px;
+}
+
+#cross-answer {
+    margin: 10px 0px 10px 0px;
+}
+
+#percy-puzzle, #percy-cross {
     margin-top: 30px;
 }
 
@@ -97,4 +105,19 @@ a:hover {
 
 .percyQ2, #puzzle-answer {
     margin-top: 10px;
+}
+
+.coming-soon {
+    margin-top: 75px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.diary-container {
+    background-color: rgb(137, 137, 255);
+}
+
+.diary, .diary:hover {
+    color: white;
 }
