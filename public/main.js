@@ -1,4 +1,7 @@
+
 let diaryCounter = 0;
+let selection1Flag = false;
+let selection2Flag = false;
 
 $(".percyQ1").on("click", function (event) {
     event.preventDefault()
@@ -6,7 +9,9 @@ $(".percyQ1").on("click", function (event) {
         window.location = "percy-question-puzz.html"
     } else if ($("#father").val() === "hermes" && $("#mother").val() == "aphrodite") {
         window.location = "percy-question-puzz.html"
-    } else {
+    } else if ($("#father").val() === "HERMES" && $("#mother").val() == "APHRODITE") {
+        window.location = "percy-question-puzz.html"
+    }else {
         alert("Try Again!")
     }
 })
@@ -16,6 +21,8 @@ $(".percyQ2").on("click", function (event) {
     if ($("#puzzle-answer").val() === "Kronos") {
         window.location = "percy-question-diary.html"
     } else if ($("#puzzle-answer").val() === "kronos") {
+        window.location = "percy-question-diary.html"
+    } else if ($("#puzzle-answer").val() === "KRONOS") {
         window.location = "percy-question-diary.html"
     } else {
         alert("Try Again!")
@@ -27,6 +34,8 @@ $(".percyQ4").on("click", function (event) {
     if ($("#cross-answer").val() === "Stone") {
         window.location = "percy-question-stone.html"
     } else if ($("#cross-answer").val() === "stone") {
+        window.location = "percy-question-stone.html"
+    } else if ($("#cross-answer").val() === "STONE") {
         window.location = "percy-question-stone.html"
     } else {
         alert("Try Again!")
@@ -46,7 +55,7 @@ $(".percyQ5").on("click", function (event) {
         window.location = "percy-question-find.html"
     } else if (stoneAnswer.includes("god" || "gods" || "Aphrodite" || "like" || "Venus")) {
         window.location = "percy-question-find.html"
-    }else {
+    } else {
         alert("Try discussing how the themes compare. How are they different, how are they similar?")
     }
 
@@ -174,8 +183,6 @@ $(".correct").on("click", function (event) {
         window.location = "percy-question-cross.html"
     }
 })
-let selection1Flag = false;
-let selection2Flag = false;
 
 $(".selection1").on("click", function (event) {
     event.preventDefault()
