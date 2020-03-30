@@ -171,3 +171,9 @@ a:hover {
 #last-percy-text {
     padding-top: 5px;
 }
+
+#wind-intro {
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
