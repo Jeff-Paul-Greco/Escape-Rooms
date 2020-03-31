@@ -247,3 +247,80 @@ hr {
 .q1-control, .q2-control, .q3-control, .q4-control, .q5-control {
     cursor: pointer;
 }
+
+.disabled {
+    color: grey;
+}
+
+#drop1, #drop2, #drop3, #drop4, #drop5, #drop6, #drop7, #drop8 {
+    min-width: 250px;
+    font-size: 18px;
+    background-color: rgba(175, 175, 252, 0.5);
+    color: white;
+    border-width: 0px;
+    
+}
+
+#drop1 > option, #drop2 > option, #drop3 > option, #drop4 > option, #drop5 > option, #drop6 > option, #drop7 > option, #drop8 > option {
+    background-color: rgba(158, 158, 255, 0.5);
+    text-align: center;
+}
+
+#puzzle {
+    max-width: 400px;
+}
+
+#wind-last {
+    min-height: 700px;
+}
+
+#red {
+    background-color: rgb(235, 20, 79);
+    color: white;
+}
+
+#orange {
+    background-color: rgb(239, 88, 62);
+    color: white;
+}
+
+#yellow {
+    background-color: rgb(251, 181, 18);
+    color: white;
+}
+
+#green {
+    background-color: rgb(111, 192, 85);
+    color: white; 
+}
+
+#blue {
+    background-color: rgb(27, 189, 217);
+    color: white;
+}
+
+#blue2 {
+    background-color: rgb(102, 96, 161);
+    color: white;
+}
+
+#purple {
+    background-color: rgb(50, 50, 115);
+    color: white;
+}
+
+#dtp {
+    margin-bottom: 30px;
+}
+
+.windQ6 {
+    margin-top: 20px;
+}
+
+#painted {
+    max-width: 80%;
+}
+
+#part1, #part2, #part3, #part4, #part5, #part6, #part7 {
+    color: white;
+}

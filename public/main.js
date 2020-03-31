@@ -344,3 +344,196 @@ $(".windQ1").on("click", function (event) {
     } else { alert("Try Again!") }
 
 })
+
+$(".windQ4").on("click", function (event) {
+    event.preventDefault()
+
+    if (($("#drop1").val() === "2") && ($("#drop2").val() === "1") && ($("#drop3").val() === "3") && ($("#drop4").val() === "3") && ($("#drop5").val() === "3") && ($("#drop6").val() === "1") && ($("#drop7").val() === "3") && ($("#drop8").val() === "2")) {
+        window.location = "wind-pictures.html"
+    } else { alert("Try Again!") }
+
+})
+
+$(".windQ5").on("click", function (event) {
+    event.preventDefault()
+
+    if ($("#puzzle").val() === "2715436") {
+        window.location = "wind-test.html"
+    } else { alert("Try Again!") }
+
+})
+
+$(".windQ6").on("click", function (event) {
+    event.preventDefault()
+
+    if (($("#red").val() === "6") && ($("#orange").val() === "3") && ($("#yellow").val() === "2") && ($("#green").val() === "7") && ($("#blue").val() === "1") && ($("#blue2").val() === "5") && ($("#purple").val() === "4")) {
+        window.location = "wind-essays.html"
+    } else { alert("Try Again!") }
+
+})
+
+let part1 = 0;
+let part2 = 0;
+let part3 = 0;
+let part4 = 0;
+let part5 = 0;
+let part6 = 0;
+let part7 = 0;
+
+$("#part1").on("click", function (event) {
+    event.preventDefault()
+    if (part1 === 0) {
+        part1 = 1;
+        $("#part1").css("background-color", "rgb(249, 161, 32)") 
+    } else if (part1 === 1) {
+        part1 = 2;
+        $("#part1").css("background-color", "rgb(83, 190, 151)")  
+    } else if (part1 === 2) {
+        part1 = 3;
+        $("#part1").css("background-color", "rgb(82, 191, 237)")  
+    } else if (part1 === 3) {
+        part1 = 4;
+        $("#part1").css("background-color", "rgb(237, 218, 32)")  
+    } else if (part1 === 4) {
+        part1 = 0;
+        $("#part1").css("background-color", "inherit")  
+    } 
+})
+
+$("#part2").on("click", function (event) {
+    event.preventDefault()
+    if (part2 === 0) {
+        part2 = 1;
+        $("#part2").css("background-color", "rgb(249, 161, 32)") 
+    } else if (part2 === 1) {
+        part2 = 2;
+        $("#part2").css("background-color", "rgb(83, 190, 151)")  
+    } else if (part2 === 2) {
+        part2 = 3;
+        $("#part2").css("background-color", "rgb(82, 191, 237)")  
+    } else if (part2 === 3) {
+        part2 = 4;
+        $("#part2").css("background-color", "rgb(237, 218, 32)")  
+    } else if (part2 === 4) {
+        part2 = 0;
+        $("#part2").css("background-color", "inherit")  
+    } 
+})
+
+$("#part3").on("click", function (event) {
+    event.preventDefault()
+    if (part3 === 0) {
+        part3 = 1;
+        $("#part3").css("background-color", "rgb(249, 161, 32)") 
+    } else if (part3 === 1) {
+        part3 = 2;
+        $("#part3").css("background-color", "rgb(83, 190, 151)")  
+    } else if (part3 === 2) {
+        part3 = 3;
+        $("#part3").css("background-color", "rgb(82, 191, 237)")  
+    } else if (part3 === 3) {
+        part3 = 4;
+        $("#part3").css("background-color", "rgb(237, 218, 32)")  
+    } else if (part3 === 4) {
+        part3 = 0;
+        $("#part3").css("background-color", "inherit")  
+    } 
+})
+
+$("#part4").on("click", function (event) {
+    event.preventDefault()
+    if (part4 === 0) {
+        part4 = 1;
+        $("#part4").css("background-color", "rgb(249, 161, 32)") 
+    } else if (part4 === 1) {
+        part4 = 2;
+        $("#part4").css("background-color", "rgb(83, 190, 151)")  
+    } else if (part4 === 2) {
+        part4 = 3;
+        $("#part4").css("background-color", "rgb(82, 191, 237)")  
+    } else if (part4 === 3) {
+        part4 = 4;
+        $("#part4").css("background-color", "rgb(237, 218, 32)")  
+    } else if (part4 === 4) {
+        part4 = 0;
+        $("#part4").css("background-color", "inherit")  
+    } 
+})
+
+$("#part5").on("click", function (event) {
+    event.preventDefault()
+    if (part5 === 0) {
+        part5 = 1;
+        $("#part5").css("background-color", "rgb(249, 161, 32)") 
+    } else if (part5 === 1) {
+        part5 = 2;
+        $("#part5").css("background-color", "rgb(83, 190, 151)")  
+    } else if (part5 === 2) {
+        part5 = 3;
+        $("#part5").css("background-color", "rgb(82, 191, 237)")  
+    } else if (part5 === 3) {
+        part5 = 4;
+        $("#part5").css("background-color", "rgb(237, 218, 32)")  
+    } else if (part5 === 4) {
+        part5 = 0;
+        $("#part5").css("background-color", "inherit")  
+    } 
+})
+
+$("#part6").on("click", function (event) {
+    event.preventDefault()
+    if (part6 === 0) {
+        part6 = 1;
+        $("#part6").css("background-color", "rgb(249, 161, 32)") 
+    } else if (part6 === 1) {
+        part6 = 2;
+        $("#part6").css("background-color", "rgb(83, 190, 151)")  
+    } else if (part6 === 2) {
+        part6 = 3;
+        $("#part6").css("background-color", "rgb(82, 191, 237)")  
+    } else if (part6 === 3) {
+        part6 = 4;
+        $("#part6").css("background-color", "rgb(237, 218, 32)")  
+    } else if (part6 === 4) {
+        part6 = 0;
+        $("#part6").css("background-color", "inherit")  
+    } 
+})
+
+$("#part7").on("click", function (event) {
+    event.preventDefault()
+    if (part7 === 0) {
+        part7 = 1;
+        $("#part7").css("background-color", "rgb(249, 161, 32)") 
+    } else if (part7 === 1) {
+        part7 = 2;
+        $("#part7").css("background-color", "rgb(83, 190, 151)")  
+    } else if (part7 === 2) {
+        part7 = 3;
+        $("#part7").css("background-color", "rgb(82, 191, 237)")  
+    } else if (part7 === 3) {
+        part7 = 4;
+        $("#part7").css("background-color", "rgb(237, 218, 32)")  
+    } else if (part7 === 4) {
+        part7 = 0;
+        $("#part7").css("background-color", "inherit")  
+    } 
+})
+
+$(".windQ7").on("click", function (event) {
+    event.preventDefault()
+
+    if ((part1 === 1) && (part2 === 2) && (part3 === 4) && (part4 === 3) && (part5 === 4) && (part6 === 3) && (part7 === 2)) {
+        window.location = "wind-final-success.html"
+    } else { alert("Try Again!") }
+
+})
+
+$(".finished").on("click", function (event) {
+    event.preventDefault()
+    let dataToSubmit = {
+        name: $("#complete").val()
+    }
+    console.log(dataToSubmit)
+    axios.post("/api/sendMail", dataToSubmit)
+})
