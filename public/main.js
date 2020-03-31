@@ -212,11 +212,6 @@ $(".selection2").on("click", function (event) {
     }
 })
 
-$(".windQ1").on("click", function (event) {
-    event.preventDefault()
-
-})
-
 $(".windQ2").on("click", function (event) {
     event.preventDefault()
     let item1 = $("#item1").val();
@@ -268,5 +263,84 @@ $(".windQ3").on("click", function (event) {
 
 })
 
+let q1 = 1;
+let q2 = 1;
+let q3 = 1;
+let q4 = 1;
+let q5 = 1;
 
-7493
+$(".q1-control").on("click", function (event) {
+    event.preventDefault()
+    if (q1 === 1) {
+        q1 = 2;
+        $("#q1").text("But, between 2001 and 2006, drought and famine hit Malawi. Even maize withered and blew away.Limited to one tiny meal a day, the Kamkwambas starved...His family was desolate.If only he could help.")
+    } else if (q1 === 2) {
+        q1 = 3;
+        $("#q1").text("During the rainy season, young William hunted for birds, using traps he fashioned from a hoe, a scarf, bicycle tires, bricks, his mother’s clothesline, and ropes made of blue gum tree bark. With his ingenuity and steady hand, William brought home meat.")
+    } else if (q1 === 3) {
+        q1 = 1;
+        $("#q1").text("When William Kamkwamba was growing up in Masitala, a farming village of about 60 families in Malawi, the best day of the year was Christmas. Then, he, his parents, and his six sisters ate meat with their usual maize porridge and greens.")
+    }
+});
+
+$(".q2-control").on("click", function (event) {
+    event.preventDefault()
+    if (q2 === 1) {
+        q2 = 2;
+        $("#q2").text("William headed to the library, a small room with three walls of books from America and electric lights. Although he knew little English, he figured out from diagrams how water wheels and electromagnets produce electricity; how batteries yield direct current; how magnets concocted from everyday objects make alternating current.")
+    } else if (q2 === 2) {
+        q2 = 3;
+        $("#q2").text("A natural mechanic, William powered a radio by connecting one to the dynamo on a bicycle. While he pedaled, his cousin Geoffrey danced to African reggae music.")
+    } else if (q2 === 3) {
+        q2 = 1;
+        $("#q2").text("“Of course, he thought. This is how spinning motion generates power!” William wrote in his book The Boy Who Harnessed the Wind. And power could provide lighting and move water from the stream to fields. Studying a book on energy, William realized wind could power pumps better than bicycling! All he needed to do was build a windmill.")
+    }
+});
+
+$(".q3-control").on("click", function (event) {
+    event.preventDefault()
+    if (q3 === 1) {
+        q3 = 2;
+        $("#q3").text("William Kamkwamba identified a critical problem in his community, lack of public schooling, and used his resourcefulness to successfully lobby to get his government to designate more money for tuition scholarships, facility upgrades and maintenance, and staff raises.")
+    } else if (q3 === 2) {
+        q3 = 3;
+        $("#q3").text("William Kamkwamba identified a critical problem in his community, the famine, and used his resourcefulness to successfully build a windmill that generated electricity for lighting homes, irrigating fields, and pumping water.")
+    } else if (q3 === 3) {
+        q3 = 1;
+        $("#q3").text("William Kamkwamba identified a critical problem in his community, unfair price gouging during drought times, and used his resourcefulness to successfully campaign to start a community committee that helps to regulate the price of food resources during drought times.")
+    }
+});
+
+$(".q4-control").on("click", function (event) {
+    event.preventDefault()
+    if (q4 === 1) {
+        q4 = 2;
+        $("#q4").text("This one required heavier materials—a tractor fan, shock absorber, vats of grease—which William scrounged from a scrap yard. Months later, he had finally collected all the pieces—except the dynamo he needed for a generator. Then, a friend, Gilbert Wimbe, son of Masitala’s chief, gave him 200 kwacha to buy one. The next day, he started connecting the parts.")
+    } else if (q4 === 2) {
+        q4 = 1;
+        $("#q4").text("Students at his old school nearby called him a madman for digging in garbage")
+    } 
+});
+
+$(".q5-control").on("click", function (event) {
+    event.preventDefault()
+    if (q5 === 1) {
+        q5 = 2;
+        $("#q5").text("With more hard work and help from donors, he finished high school and now gives speeches around the world and studies engineering at Dartmouth College.")
+    } else if (q5 === 2) {
+        q5 = 3;
+        $("#q5").text("Through his organization, the Moving Windmills Project, William continues to work toward providing villages throughout Malawi with access to clean water and school and building supplies. Bryan Mealer, the co-author of The Boy Who Harnessed the Wind, says William’s message “really resonated with a lot of people.” Thanks to William’s windmill, change is in the air for the people of Malawi.")
+    } else if (q5 === 3) {
+        q5 = 1;
+        $("#q5").text("TED is a non-profit organization devoted to “ideas worth spreading.”")
+    }
+});
+
+$(".windQ1").on("click", function (event) {
+    event.preventDefault()
+
+    if ((q1 === 2) && (q2 === 1) && (q3 === 2) && (q4 === 2) && (q5 === 3)) {
+        window.location = "wind-supplies.html"
+    } else { alert("Try Again!") }
+
+})

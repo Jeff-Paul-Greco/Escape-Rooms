@@ -19,12 +19,14 @@
     background-image: url("./images/wind-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .roads-body {
     background-image: url("./images/roads-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .jumbotron {
@@ -172,7 +174,7 @@ a:hover {
     padding-top: 5px;
 }
 
-#wind-intro {
+#wind-intro, #graphic {
     font-size: 20px;
     margin-top: 30px;
     border-radius: 20px;
@@ -180,7 +182,7 @@ a:hover {
 
 select, option {
     max-width: 100%;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 select > option {
@@ -209,4 +211,39 @@ select > option {
 
 #num4 {
     background-color: yellow;  
+}
+
+hr {
+    border-color: white;
+}
+
+#graphic > p {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+#graphic > hr {
+    margin: 0px;
+}
+
+#graphic {
+    width: 100%;
+    min-height: 305px;
+}
+
+#graphic-button {
+    margin-top: 50%;
+    margin-left: 13%;
+    height: 85px;
+    width: 75%;
+    font-size: 48px;
+    text-align: center;
+}
+
+#graphic-instruct {
+    margin-top: 10px;
+}
+
+.q1-control, .q2-control, .q3-control, .q4-control, .q5-control {
+    cursor: pointer;
 }
