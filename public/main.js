@@ -532,7 +532,8 @@ $(".windQ7").on("click", function (event) {
 $(".finished").on("click", function (event) {
     event.preventDefault()
     let dataToSubmit = {
-        name: $("#complete").val()
+        first: $("#firstName").val(),
+        last: $("#lastName").val()
     }
     console.log(dataToSubmit)
     axios.post("/api/sendMail", dataToSubmit)

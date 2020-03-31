@@ -2,7 +2,7 @@
 const nodemailer = require("nodemailer");
 
 
-sendEmail = (name) => {
+sendEmail = (first, last) => {
 
 // Nodemailer middleware
 let transporter = nodemailer.createTransport({
@@ -23,7 +23,7 @@ let mailOptions = {
     subject: `A message from Ms. Cowan's Escape Rooms`,
     text: `
    
-    message: ${name} has completed The Boy Who Harnessed the Wind Escape Room!`
+    message: ${first} ${last} has completed The Boy Who Harnessed the Wind Escape Room!`
 };
 
 // Send mail

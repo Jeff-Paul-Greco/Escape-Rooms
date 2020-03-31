@@ -20,7 +20,7 @@ app.use(
 app.post("/api/sendMail", (req, res) => {
     console.log(req.body)
     console.log("hi")
-    sendEmail(req.body.name)
+    sendEmail(req.body.first, req.body.last)
 });
 
 // set app to static 
