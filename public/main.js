@@ -536,4 +536,5 @@ $(".finished").on("click", function (event) {
     }
     console.log(dataToSubmit)
     axios.post("/api/sendMail", dataToSubmit)
+    alert("A message has been sent to Ms. Cowan!")
 })

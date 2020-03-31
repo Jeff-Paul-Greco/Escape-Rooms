@@ -3,7 +3,7 @@ const nodemailer = require("nodemailer");
 
 
 sendEmail = (name) => {
-console.log(name)
+
 // Nodemailer middleware
 let transporter = nodemailer.createTransport({
     service: "gmail",
