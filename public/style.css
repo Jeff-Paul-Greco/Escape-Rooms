@@ -187,3 +187,26 @@ select > option {
     border: 5px solid black;
     max-width: 100px;
 }
+
+.combo-lock {
+    max-width: 45px;
+    margin: 25px 0px 25px 0px;
+    color: white;
+    text-align: center;
+}
+
+#num1 {
+    background-color: red;
+}
+
+#num2 {
+    background-color: blue;
+}
+
+#num3 {
+    background-color: green;
+}
+
+#num4 {
+    background-color: yellow;  
+}

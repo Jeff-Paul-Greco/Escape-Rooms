@@ -252,4 +252,21 @@ $(".windQ2").on("click", function (event) {
     } else { alert("Try Again!") }
 })
 
+$(".windQ3").on("click", function (event) {
+    event.preventDefault()
+    if ($("#num1").val() === "7") {
+        if ($("#num2").val() === "4") {
+            if ($("#num3").val() === "9") {
+                if ($("#num4").val() === "3") {
 
+                    window.location = "wind-mill.html"
+
+                } else { alert("Try Again!") }
+            } else { alert("Try Again!") }
+        } else { alert("Try Again!") }
+    } else { alert("Try Again!") }
+
+})
+
+
+7493
