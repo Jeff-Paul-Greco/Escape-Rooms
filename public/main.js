@@ -11,7 +11,7 @@ $(".percyQ1").on("click", function (event) {
         window.location = "percy-question-puzz.html"
     } else if ($("#father").val() === "HERMES" && $("#mother").val() == "APHRODITE") {
         window.location = "percy-question-puzz.html"
-    }else {
+    } else {
         alert("Try Again!")
     }
 })
@@ -211,3 +211,45 @@ $(".selection2").on("click", function (event) {
         window.location = "percy-last.html"
     }
 })
+
+$(".windQ1").on("click", function (event) {
+    event.preventDefault()
+
+})
+
+$(".windQ2").on("click", function (event) {
+    event.preventDefault()
+    let item1 = $("#item1").val();
+    console.log(item1)
+    if (($("#item1").val() === "Plastic") || ($("#item1").val() === "plastic") || ($("#item1").val() === "Bamboo") || ($("#item1").val() === "bamboo") || ($("#item1").val() === "Grease") || ($("#item1").val() === "grease") || ($("#item1").val() === "Dynamo") || ($("#item1").val() === "dynamo") || ($("#item1").val() === "Bottle Caps") || ($("#item1").val() === "bottle caps") || ($("#item1").val() === "Tractor Fan") || ($("#item1").val() === "tractor fan") || ($("#item1").val() === "Shock Absorber") || ($("#item1").val() === "shock absorber")) {
+
+        if (($("#item2").val() === "Plastic") || ($("#item2").val() === "plastic") || ($("#item2").val() === "Bamboo") || ($("#item2").val() === "bamboo") || ($("#item2").val() === "Grease") || ($("#item2").val() === "grease") || ($("#item2").val() === "Dynamo") || ($("#item2").val() === "dynamo") || ($("#item2").val() === "Bottle Caps") || ($("#item2").val() === "bottle caps") || ($("#item2").val() === "Tractor Fan") || ($("#item2").val() === "tractor fan") || ($("#item2").val() === "Shock Absorber") || ($("#item2").val() === "shock absorber")) {
+
+            if (($("#item3").val() === "Plastic") || ($("#item3").val() === "plastic") || ($("#item3").val() === "Bamboo") || ($("#item3").val() === "bamboo") || ($("#item3").val() === "Grease") || ($("#item3").val() === "grease") || ($("#item3").val() === "Dynamo") || ($("#item3").val() === "dynamo") || ($("#item3").val() === "Bottle Caps") || ($("#item3").val() === "bottle caps") || ($("#item3").val() === "Tractor Fan") || ($("#item3").val() === "tractor fan") || ($("#item3").val() === "Shock Absorber") || ($("#item3").val() === "shock absorber")) {
+
+                if (($("#item4").val() === "Plastic") || ($("#item4").val() === "plastic") || ($("#item4").val() === "Bamboo") || ($("#item4").val() === "bamboo") || ($("#item4").val() === "Grease") || ($("#item4").val() === "grease") || ($("#item4").val() === "Dynamo") || ($("#item4").val() === "dynamo") || ($("#item4").val() === "Bottle Caps") || ($("#item4").val() === "bottle caps") || ($("#item4").val() === "Tractor Fan") || ($("#item4").val() === "tractor fan") || ($("#item4").val() === "Shock Absorber") || ($("#item4").val() === "shock absorber")) {
+
+                    if (($("#item5").val() === "Plastic") || ($("#item5").val() === "plastic") || ($("#item5").val() === "Bamboo") || ($("#item5").val() === "bamboo") || ($("#item5").val() === "Grease") || ($("#item5").val() === "grease") || ($("#item5").val() === "Dynamo") || ($("#item5").val() === "dynamo") || ($("#item5").val() === "Bottle Caps") || ($("#item5").val() === "bottle caps") || ($("#item5").val() === "Tractor Fan") || ($("#item5").val() === "tractor fan") || ($("#item5").val() === "Shock Absorber") || ($("#item5").val() === "shock absorber")) {
+
+                        if (($("#item6").val() === "Plastic") || ($("#item6").val() === "plastic") || ($("#item6").val() === "Bamboo") || ($("#item6").val() === "bamboo") || ($("#item6").val() === "Grease") || ($("#item6").val() === "grease") || ($("#item6").val() === "Dynamo") || ($("#item6").val() === "dynamo") || ($("#item6").val() === "Bottle Caps") || ($("#item6").val() === "bottle caps") || ($("#item6").val() === "Tractor Fan") || ($("#item6").val() === "tractor fan") || ($("#item6").val() === "Shock Absorber") || ($("#item6").val() === "shock absorber")) {
+
+                            if (($("#item7").val() === "Plastic") || ($("#item7").val() === "plastic") || ($("#item7").val() === "Bamboo") || ($("#item7").val() === "bamboo") || ($("#item7").val() === "Grease") || ($("#item7").val() === "grease") || ($("#item7").val() === "Dynamo") || ($("#item7").val() === "dynamo") || ($("#item7").val() === "Bottle Caps") || ($("#item7").val() === "bottle caps") || ($("#item7").val() === "Tractor Fan") || ($("#item7").val() === "tractor fan") || ($("#item7").val() === "Shock Absorber") || ($("#item7").val() === "shock absorber")) {
+
+                                window.location = "wind-dump.html"
+
+                            } else { alert("Try Again!") }
+
+                        } else { alert("Try Again!") }
+
+                    } else { alert("Try Again!") }
+
+                } else { alert("Try Again!") }
+
+            } else { alert("Try Again!") }
+
+        } else { alert("Try Again!") }
+
+    } else { alert("Try Again!") }
+})
+
+
